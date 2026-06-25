@@ -1,0 +1,58 @@
+$date
+	Thu Jun 25 20:21:38 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module eight_bit_alu_tb $end
+$scope module out $end
+$var wire 8 ! a [7:0] $end
+$var wire 8 " b [7:0] $end
+$var wire 3 # sel [2:0] $end
+$var wire 9 $ sum [8:0] $end
+$var wire 8 % o [7:0] $end
+$var wire 1 & c $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+1&
+b11101111 %
+b111101111 $
+b0 #
+b11110000 "
+b11111111 !
+$end
+#100000
+b100011010 $
+b11010 %
+b1 #
+b1010 !
+#200000
+0&
+b10000000 %
+b101111101 $
+b10 #
+b10001101 !
+#300000
+b11111110 %
+b100101110 $
+b11 #
+b111110 !
+#400000
+b11001110 %
+b100 #
+#500000
+b11000001 %
+b101 #
+#600000
+b1111100 %
+b110 #
+#700000
+b1111000 %
+b111 #
+#800000
